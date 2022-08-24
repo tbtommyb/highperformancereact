@@ -1,0 +1,7 @@
+<div class="summary mb-2">
+  <h2>{{ .Title }}</h2>
+  <p> {{ .Content }}</h2>
+  {{ range .Pages }}
+  {{ partial "sectionlist.html" . }}
+  {{ end }}
+</div>

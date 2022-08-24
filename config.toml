@@ -1,0 +1,16 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "HighPerformanceReact.dev"
+
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
