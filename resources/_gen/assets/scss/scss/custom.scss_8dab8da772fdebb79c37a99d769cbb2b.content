@@ -1,0 +1,20 @@
+.section li {
+  list-style: number;
+  margin-bottom: 0.5rem; }
+
+.section li:last-of-type {
+  margin-bottom: 1rem; }
+
+h2 {
+  font-size: 1.8rem; }
+
+.section h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem; }
+
+.section h2.title-summary {
+  font-weight: 400;
+  font-size: 1.6rem; }
+
+/*# sourceMappingURL=custom.css.map */

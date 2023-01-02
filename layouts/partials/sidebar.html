@@ -1,13 +1,16 @@
 {{$currentNode := .}}
 <div class="docs-menu">
   <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
     {{ range .Site.Sections }}
     <li>
       <h5>{{ .Title }}</h5>
       <ul>
         {{ range .Pages }}
           <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active {{ end }}">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <a href="#{{ .Slug }}">{{ .Title }}</a>
           </li>
         {{ end }}
       </ul>
